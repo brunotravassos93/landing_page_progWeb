@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>User Centered Design Canvas</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/styles2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container px-5">
+        <a class="navbar-brand" href="#!">User Centered Design Canvas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#what">O que é?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Como Funciona</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#!">Por que?</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#!">Criadores</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Content-->
+    <div class="container px-4 px-lg-5">
+      <!-- Heading Row-->
+      <div
+        class="gx-4 gx-lg-5 align-items-center my-5 justify-content-center d-flex flex-column"
+      >
+        <div class="logoAndTitle">
+          <img
+            id="home"
+            class="img-fluid rounded mb-4 mb-lg-0"
+            src="./assets/imgs/logo-usabilidade.png"
+            alt="..."
+          />
+          <h1 class="font-weight-light text-center p-3">
+            Planeje a Avaliação de Usabilidade da solução em uma única tela!
+          </h1>
+        </div>
+        <div
+          class="align-items-center d-flex flex-column justify-content-center"
+        >
+          <h3 id="what" class="text-center mt-5">
+            O que é o Canvas da Usabilidade
+          </h3>
+          <p class="text-center">
+            Usabilidade é um atributo de qualidade de software relacionado à
+            facilidade de se utilizá-lo e esse atributo é relevante para vários
+            tipos de sistemas. Para verificar se o produto ou serviço pretendido
+            atende aos atributos de usabilidade exigidos em relação aos usuários
+            esperados, é feita uma avaliação de usabilidade. A avaliação de
+            usabilidade é um nome genérico para um grupo de métodos baseados na
+            avaliação e inspeção ou exame relacionado com aspectos de
+            usabilidade da interface com o usuário. Existem várias alternativas
+            para se realizar a avaliação da usabilidade de uma solução. OCAU (O
+            canvas de Avaliação de Usabilidade) é um artefato desenvolvido com a
+            intenção de facilitar o planejamento da avaliação de usabilidade
+            possuindo 8 dimensões:
+          </p>
+          <img
+            src="./assets/imgs/img-canvas.jpg"
+            alt="imagem canvas da usabilidade"
+          />
+        </div>
+      </div>
+      <!-- Call to Action-->
+      <div class="card text-white bg-secondary my-5 py-4 text-center">
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-danger"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Download Manual e Estudos de Caso
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Download Manual e Estudos de Caso
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <a
+                  href="./assets/pdfs/Manual_OCAU.docx"
+                  class="btn btn-primary me-2"
+                  target="_blank"
+                  >Download do Manual</a
+                >
+                <a
+                  href="./assets/pdfs/linkedin-caso-de-exito-olx.pdf"
+                  class="btn btn-danger"
+                  target="_blank"
+                  >Download do Estudo de Caso</a
+                >
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content Row-->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col bg-black text-white p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Usuários</h1>
+            <p class="fs-5">3 Participantes, estudantes do curso de Ciências da Computação e integrantes do ETQS (Escritório de Testes e Qualidade de Software) da Fábrica de Software – UNIPÊ UBTECH.</p>
+          </div>
+          <div class="col bg-primary text-white p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Tarefas</h1>
+            <p>Instalar o aplicativo em um dispositivo móvel Android, acessar o aplicativo, acessar um determinado evento pelo (Ponto de Acesso ou Localizador) e por fim, escanear 10 QRCODE (controle de acesso). Cada Participante poderá tentar realizar a tarefa até 5 vezes, e a quantidade de erros admitidos serão 3. Após conclusão, preencher ao questionário CSUQ e SUS.</p>
+          </div class="fs-5">
+          <div class="col bg-danger text-black p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Contexto</h1>
+            <p class="fs-5">3 Participantes irão realizar as atividades pelo celular (WI-FI) e logo em seguida os 3 participantes irão repetir o mesmo procedimento pelo celular (4G). As tarefas serão realizadas na aplicação na visão do credenciador (usuário responsável pelo controle de acesso ao evento).</p>
+          </div>
+          <div class="col bg-success text-white p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Requisitos</h1>
+            <p class="fs-5">Controle de passagem do usuário por meio da leitura de QR Codes de identificação em pontos de acesso de eventos presenciais cadastrados previamente.</p>
+          </div>
+          <div class="col bg-light p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Alternativas</h1>
+            <p class="fs-5">A avaliação de usabilidade será uma combinação de observação das atividades realizadas pelos participantes bem como uma pesquisa por questionário online desenvolvido no google forms. Também será utilizado um cronometro como ferramenta de apoio para medição dos tempos de execução das tarefas.</p>
+          </div>
+        </div>
+        <div class="row bg-warning p-2 ">
+          <h1 class="text-uppercase">Solução</h1>
+          <p class="fs-5">App de check-in é uma solução voltada a realizar o controle de acesso (circulação de público e registro de presença em eventos). O App de check-in tem o papel de escanear os QR Codes dos credenciados e, deste modo, monitorar a sua circulação por salas, auditórios, estandes e demais espaços, além de conferir a sua presença em palestras, capacitações e outras realizações afins. Foi desenvolvido utilizado as tecnologias Java (Spring Boot) e React Native.</p>
+        </div>
+        <div class="row">
+          <div class="col bg-info p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Critérios</h1>
+            <p class="fs-5">Satisfação, eficácia e eficiência.</p>
+          </div>
+          <div class="col bg-muted p-2 d-flex flex-column align-items-center justify-content-center">
+            <h1 class="text-uppercase">Métricas</h1>
+            <p class="text-start fs-5">Taxa de Tempo da Tarefa (TTR) = total de segundos / número de usuários<br>
+              Taxa de Sucesso da Tarefa (TSR) = número de tarefas concluídas com sucesso / total de tentativas<br>
+              Taxa de Erro do Usuário (UER) = total de erros ocorridos de todos os usuários na tarefa / total de tentativas x número de possíveis erros
+              </p>
+          </div>
+        </div>
+      </div>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container px-4 px-lg-5 socialMediaDiv">
+        <p class="m-0 text-center text-white">
+          Programação Web - O canvas da Usabilidade
+        </p>
+        <div>
+          <ul class="socialMediaUl">
+            <li>
+              <a href="https://www.facebook.com/ocanvasdeusabilidade/">
+                <img
+                  class="socialMedia"
+                  src="./assets/imgs/FB-logo.png"
+                  alt="logo_face"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ocanvasdeusabilidade/"
+                ><img
+                  class="socialMedia"
+                  src="./assets/imgs/IG-logo.png"
+                  alt="logo_instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
